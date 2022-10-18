@@ -18,6 +18,7 @@ public class HomepageSteps extends baseclass{
 
 	@Given("user is on homepage")
 	public void user_is_on_homepage() {
+		
 		base.getDriver().get(url);
 	}
 

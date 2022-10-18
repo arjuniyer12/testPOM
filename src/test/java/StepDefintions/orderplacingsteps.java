@@ -1,6 +1,5 @@
 package StepDefintions;
 
-import Hooks.hooks;
 import PageObjects.HomepageObjects;
 import PageObjects.checkoupageobjects;
 import PageObjects.loginpageobjects;
@@ -14,12 +13,12 @@ public class orderplacingsteps extends baseclass {
 
 
 	private baseclass base;
-	
+
 	public orderplacingsteps(baseclass base) {
 		this.base=base;
 	}
 
-	
+
 
 	@When("user click on a product")
 	public void user_click_on_a_product() {

@@ -8,7 +8,7 @@ import StepDefintions.baseclass;
 import utilities.BrowserUtilities;
 
 
-public class checkoupageobjects extends baseclass {
+public class checkoupageobjects {
 
 	
 	

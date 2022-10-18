@@ -10,10 +10,21 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import StepDefintions.baseclass;
 
-public class BrowserUtilities extends baseclass {
+public class BrowserUtilities{
 	
 	
+	baseclass base;
+	public BrowserUtilities(baseclass base) {
+		this.base=base;
+		
+	}
 	//public WebDriver driver;
+	
+	
+	/*public static void loadurl (String url) {
+		base.getDriver().get(url); 
+		
+	} */
 	
 	public static void clickElement(WebElement ele) {
 		ele.click();

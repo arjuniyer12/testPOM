@@ -11,6 +11,7 @@ import PageObjects.checkoupageobjects;
 import PageObjects.loginpageobjects;
 import PageObjects.productpageobjects;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import utilities.DriverFactory;
 import utilities.PropertiesReader;
 
 public class baseclass {
@@ -40,15 +41,13 @@ public class baseclass {
 		initializeProperties();
 		if (browsername.equals("chrome")) {
 
-			WebDriverManager.chromedriver().setup();
 			
-				driver=new ChromeDriver();
+				driver=DriverFactory.setChromeBrowser();
 		}
 
 		else if (browsername.equals("firefox")) {
-			WebDriverManager.firefoxdriver().setup();
 			
-				driver=new FirefoxDriver();
+				driver=DriverFactory.setFirefoxBrowser();
 
 		}
 		else {

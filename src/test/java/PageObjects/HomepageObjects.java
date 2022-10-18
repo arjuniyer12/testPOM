@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import StepDefintions.baseclass;
 import utilities.BrowserUtilities;
 
-public class HomepageObjects extends baseclass{
+public class HomepageObjects{
 	private baseclass base;
 	public HomepageObjects(baseclass base)
 	{

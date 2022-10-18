@@ -8,7 +8,7 @@ import StepDefintions.baseclass;
 import utilities.BrowserUtilities;
 
 
-public class loginpageobjects extends baseclass {
+public class loginpageobjects{
 
 
 	private baseclass base;
